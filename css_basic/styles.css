@@ -22,3 +22,15 @@ aside{
 article, aside{
     overflow-y: auto;
 }
+
+section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    max-width: 300px;
+    height: auto;
+}
+
