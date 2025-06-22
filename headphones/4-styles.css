@@ -287,4 +287,66 @@ nav ul li a:hover{
   background-color: #e04b4b;
 }
 
+.footer {
+  background-color: #0c1c2c;
+  color: #ffffff;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.footer-logo {
+  height: 30px;
+  width: auto;
+}
+
+.social-icons {
+    gap: 10px;
+    align-items: right;
+    display: flex;
+    justify-content: right;
+}
+
+.social-icons img {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ff6565;
+}
+
+.social-icons img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.6;
+}
